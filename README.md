@@ -1,6 +1,8 @@
 ### Implementation details
 
-Implmeneted the `./js/gumroad.js` file which is included in the `index.html` for the test.
+Implmeneted the `./js/gumroad.js` to scan the Gumroad links and process it as mentioned in the problem statement.
+
+A user just need to include the single JS file webpage. For the test purpose, the JS file is included in the `index.html` for the test. It has multiple links along with Gumroad links.
 
 ### How to test the changes?
 
