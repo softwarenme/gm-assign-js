@@ -1,0 +1,76 @@
+#popup {
+  display: none;
+  width: 1050px;
+  height: 878px;
+  top:20px;
+  left:213px;
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  border-radius: 5px;
+}
+
+#gumroad-container {
+  overflow-y: auto;
+  max-width: 1440px;
+  max-height: 737px;
+  position: fixed !important;
+  z-index: 99998 !important;
+  top: 0 !important;
+  right: 0 !important;
+}
+
+.darken {
+  background: rgba(0, 0, 0, 0.7);
+  width: 1440px;
+  height: 737px;
+}
+
+.product {
+  background: rgba(0, 0, 0, 0);
+}
+
+#gumroad-frame {
+  border: 0;
+  padding: 3px;
+  position: absolute;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+
+.full-frame {
+  border: 0;
+  padding: 3px;
+  width: 1440px;
+  height: 878px;
+}
+
+a.gumroad-button {
+  background-color: white !important;
+  background-image: url("../img/button_bar.jpg") !important;
+  background-repeat: repeat-x !important;
+  border-radius: 4px !important;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 2px !important;
+  color: #999 !important;
+  display: inline-block !important;
+  font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 50px !important;
+  padding: 0 15px !important;
+  text-shadow: none !important;
+  text-decoration: none !important;
+}
+
+.gumroad-button-logo {
+  background-image: url("../img/button_logo.png") !important;
+  background-size: cover !important;
+  height: 17px !important;
+  width: 16px !important;
+  display: inline-block !important;
+  margin-bottom: -3px !important;
+  margin-right: 15px !important;
+}
+
+html, body, #page { height: 100%; }
