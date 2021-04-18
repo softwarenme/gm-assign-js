@@ -14,20 +14,42 @@ If you have time, please support:
 
 If you have product feedback as well, we'd love to hear it!
 
+### Database design
+
+![DbDesign](https://user-images.githubusercontent.com/82768433/115153069-9c6ca500-a091-11eb-9226-2ac42de19413.jpg)
+
+
 ### Implementation details
 
-Implmeneted the `./js/gumroad.js` file which is included in the `index.html` for the test.
+Implemented a working database model using Rails bug reporting template.
+
+It has following implemented changes
+
+- Uses `sqlite3` database
+- Rails `ActiveRecord` models for the entities.
+- Rails migrations for the tables related to the models.
+- A Service to process payout to explain the working.
+- A test cases for the payout service.
+
+#### Database Index
+Database indexes are added on the columns to make the frequent database queries performant even for the large amount of data.
 
 ### How to test the changes?
 
 Run following command from the repository root folder.
 
 ```
-python3 -m http.server 1234
+ruby data_model.rb
 ```
 
-The `index.html` will be served at `localhost:1234`
+It will run the service test cases.
 
 ### What to check?
 
-On the sample HMTL page, the Gumroad link is scanned and opens in the popup. And Gumroad button link is scanned and turned into a button.
+Along with the database modeling, there is a working service to demonstrate how the database model will be used to process the payout for a seller.
+
+The test covers following scenarios
+
+- Default payout schedule to pay every other week as explained in the problem statement.
+- Weekly payout schedule.
+- Custom payout schedule
