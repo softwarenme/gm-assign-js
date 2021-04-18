@@ -16,7 +16,7 @@ If you have product feedback as well, we'd love to hear it!
 
 ### Implementation details
 
-I've implmeneted the `./js/gumroad.js` file which is included in the `index.html` for the test.
+Implmeneted the `./js/gumroad.js` file which is included in the `index.html` for the test.
 
 ### How to test the changes?
 
