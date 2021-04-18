@@ -12,8 +12,6 @@
 
 #gumroad-container {
   overflow-y: auto;
-  max-width: 1440px;
-  max-height: 737px;
   position: fixed !important;
   z-index: 99998 !important;
   top: 0 !important;
@@ -22,8 +20,8 @@
 
 .darken {
   background: rgba(0, 0, 0, 0.7);
-  width: 1440px;
-  height: 737px;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
 
 .product {
